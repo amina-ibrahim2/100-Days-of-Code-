@@ -4,17 +4,17 @@ Over 100 days, I'll dedicate 1 hour per day to master Python by building one pro
 
 ## Skills I'll Learn 
 **Python 3 - Master the latest version of Python**
-**IDE and Tools - PyCharm, Jupyter Notebook, Google Colab
-### Scripting and Automation - Python scripting and automation techniques
-### Game Development - Python game development basics
-### Web Scraping - Beautiful Soup, Selenium Web Driver, Requests
-### Data Science - Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Seaborn
-### GUI Development - Building desktop apps with Tkinter
-### Web Development - Front-end (HTML5, CSS3, Bootstrap 4) and back-end (Flask, REST, APIs)
-### Version Control - Git, GitHub, and version control systems
-### Database Management - SQL, SQLite, PostgreSQL
-### Deployment - Deploying apps with GitHub Pages, Heroku, and GUnicorn
-### Authentication - Implementing secure authentication methods
+**IDE and Tools - PyCharm, Jupyter Notebook, Google Colab**
+**Scripting and Automation - Python scripting and automation techniques**
+**Game Development - Python game development basics**
+**Web Scraping - Beautiful Soup, Selenium Web Driver, Requests**
+**Data Science - Pandas, NumPy, Matplotlib, Plotly, Scikit-learn, Seaborn**
+**GUI Development - Building desktop apps with Tkinter**
+**Web Development - Front-end (HTML5, CSS3, Bootstrap 4) and back-end (Flask, REST, APIs)**
+**Version Control - Git, GitHub, and version control systems**
+**Database Management - SQL, SQLite, PostgreSQL**
+**Deployment - Deploying apps with GitHub Pages, Heroku, and GUnicorn**
+**Authentication - Implementing secure authentication methods**
 
 
 
