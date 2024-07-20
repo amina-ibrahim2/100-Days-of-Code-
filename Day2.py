@@ -36,7 +36,7 @@
 # Type Error, Type Checking, and Type Conversion
 
 #len(4837) len function doesn't like integers 
-num_char = len(input("What is your name?"))
+#num_char = len(input("What is your name?"))
 #print("Your name has" + num_char + "characters.") # Can't concetanante a string and an integer
 
 #print(type(num_char))
@@ -55,17 +55,18 @@ num_char = len(input("What is your name?"))
 
 # Mathematical Operators 
 
-#3 + 5 
-#7 - 3
-#3 * 2 
-#6 / 3 # End up with a floating number 
-#print(type(6 / 3))
-#2 ** 2 # exponents 
+# 3 + 5 
+# 7 - 3
+# 3 * 2 
+# 6 / 3 # End up with a floating number-happens in python
+# print(type(6 / 3))
+# 2 ** 2 # exponents 
 
 # Be careful about more than one operation in one line 
 # PEMDAS 
 
 #print(3 * 3 / 3 + 3 - 3 )
+
 
 
 # Number Manipulation and F Strings in Python 
@@ -78,5 +79,56 @@ num_char = len(input("What is your name?"))
 
 
 
-two_digit_number= input()
-print(type(two_digit_number))
+#two_digit_number= input()
+#print(type(two_digit_number))
+#first_digit = int(two_digit_number [0])
+#second_digit = int(two_digit_number[1])
+
+# Add both integers 
+
+#two_digit_number = first_digit + second_digit
+#print(two_digit_number)
+
+# Code Growth 
+# Don't try to minimize the amount of lines in your code for optimization
+# But rather make your code readable by others.
+
+# Number Manipulation and F Strings 
+
+print(int(8/3))
+# Round numbers to a whole 
+print(round(8/3, 2)) # round to the nearest decimal-use comma
+#Also use two forward slashes (floor division)
+print(type(8 // 3)) 
+print(8 // 3) # when we use floor division, it rounds to a whole number as opposed to the / operation
+print(4/2)
+print(type(4 / 2))
+
+# Using varibales 
+
+result = 4 / 2 
+result /= 2
+print(result)
+
+score = 0
+# User scores a point-manipulate a value based on the previous value 
+score += 1
+print(score)
+
+ # +=
+# -=
+# *=
+# /=
+
+# F Strings 
+# Mix strings and other data types 
+#print("your score is" + str(score))
+# Convenient way 
+# f-string allows us to- infront of a string you place f
+score = 10 
+height = 1.8 
+isWinning = True 
+
+print(f"your score is {score}, your height is {height}, you are winning {isWinning}  ")
+# So what does f-strings help with? They make it easier to convert to string instead of manually doing it per data type 
+
