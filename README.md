@@ -4,6 +4,7 @@ Over 100 days, I'll dedicate 1 hour per day to master Python by building one pro
 
 ## Skills I'll Learn 
 **Python 3 - Master the latest version of Python**
+
 **IDE and Tools - PyCharm, Jupyter Notebook, Google Colab**
 **Scripting and Automation - Python scripting and automation techniques**
 **Game Development - Python game development basics**
