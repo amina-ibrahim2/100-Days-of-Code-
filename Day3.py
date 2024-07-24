@@ -5,12 +5,13 @@
 #else: 
    # do this 
 
-water_level = 50 
-if water_level > 80: # greater than 80
-    print("Drain water")
-else: #if it's not greater than 80 
-    print("Continue ")
+#water_level = 50 
+#if water_level > 80: # greater than 80
+    #print("Drain water")
+#else: #if it's not greater than 80 
+    #print("Continue ")
 
+bill = 0 
 
 print(" Welcome to Six Flags!")
 
@@ -19,15 +20,22 @@ if height >= 120:
     print("You can ride!")
     age = int(input("What is your age? "))
     if age < 12:
-        print("Please, pay $5.")
+        bill = 5
+        print("Child tickets are $5.")
     elif age <= 18: 
-        print("Please pay $7")
+        bill = 7
+        print("Youth tickets are $7")
       # Can have as much elif statements in between the if and else statements 
-    elif age >= 65:
-        print("Senior Citizens are free!")
     
     else: 
-        print("Please pay $12")
+        bill = 12 
+        print("Adult tickets are $12")
+    wants_photo = input("Do you want a photo taken? Y or N ")
+    if wants_photo == "Y":
+        bill += 3 
+
+    print(f"Your final bill is ${bill}")
+
 else: 
     print("Sorry, you can't ride.")
 
@@ -38,3 +46,19 @@ else:
 
 # Nested if statements and elif statements 
 
+# Multiple if statements in succession 
+    
+# if conditional1:
+    # do A 
+# elif condition2:
+    # do B 
+# else:
+#   do C 
+    
+# Multiple if 
+# if condition1: if condition 1 is true do A and so on.. 
+    #do A 
+# if conditiona2:
+    #do B
+# if condition3:
+    # do C
